@@ -21,6 +21,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatTableModule } from '@angular/material/table';
 
 import { MatNativeDateModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
@@ -54,6 +55,7 @@ import { ParticipantesComponent } from './participantes/participantes.component'
     MatSliderModule,
     MatSlideToggleModule,
     MatNativeDateModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

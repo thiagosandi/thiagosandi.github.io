@@ -1,27 +1,35 @@
+<mat-toolbar>
+  <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
+    <mat-icon aria-label="Side nav toggle icon" style="color: white; font-size: 40px; margin-right: 60px;">menu
+    </mat-icon>
+  </button>
+  <img src="../../assets/logo.png" alt="logo">
+  <span style="color: #eed202; ">CÃO AMIGO DE FIFA</span>
+</mat-toolbar>
+
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
-      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'"
-      [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
-    <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+  <mat-sidenav #drawer autosize class="sidenav" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+    <mat-nav-list appAccordion>
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+        <mat-icon class="icones_lista">house</mat-icon>HOME
+      </a>
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+        <mat-icon class="icones_lista">poll</mat-icon>CLASSIFICAÇÃO
+      </a>
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+        <mat-icon class="icones_lista">people_alt</mat-icon>PARTICIPANTES
+      </a>
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+        <mat-icon class="icones_lista">assignment</mat-icon>TIMES
+      </a>
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+        <mat-icon class="icones_lista">info</mat-icon>
+        REGULAMENTO
+      </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button
-        type="button"
-        aria-label="Toggle sidenav"
-        mat-icon-button
-        (click)="drawer.toggle()"
-        *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-      </button>
-      <span>caoAmigoSite</span>
-    </mat-toolbar>
-    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
