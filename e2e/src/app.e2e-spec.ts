@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('caoAmigoSite app is running!');
+    expect(page.getTitleText()).toEqual('thiagosandi.github.io app is running!');
   });
 
   afterEach(async () => {

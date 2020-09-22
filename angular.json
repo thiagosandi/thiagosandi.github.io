@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "caoAmigoSite": {
+    "thiagosandi.github.io": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/caoAmigoSite",
+            "outputPath": "dist/thiagosandi.github.io",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "caoAmigoSite:build"
+            "browserTarget": "thiagosandi.github.io:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "caoAmigoSite:build:production"
+              "browserTarget": "thiagosandi.github.io:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "caoAmigoSite:build"
+            "browserTarget": "thiagosandi.github.io:build"
           }
         },
         "test": {
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "caoAmigoSite:serve"
+            "devServerTarget": "thiagosandi.github.io:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "caoAmigoSite:serve:production"
+              "devServerTarget": "thiagosandi.github.io:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "caoAmigoSite"
+  "defaultProject": "thiagosandi.github.io"
 }
