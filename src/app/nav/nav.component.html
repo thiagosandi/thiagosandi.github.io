@@ -1,20 +1,20 @@
 <mat-toolbar>
   <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
-    <mat-icon aria-label="Side nav toggle icon" style="color: white; font-size: 40px; margin-right: 60px;">menu
+    <mat-icon aria-label="Side nav toggle icon" class="toggle">menu
     </mat-icon>
   </button>
   <img src="../../assets/logo.png" alt="logo">
-  <span style="color: #eed202; ">CÃO AMIGO DE FIFA</span>
+  <span class="logo">Cão Amigo</span>
 </mat-toolbar>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer autosize class="sidenav" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === menuOpen">
     <mat-nav-list appAccordion>
       <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
         <mat-icon class="icones_lista">house</mat-icon>HOME
       </a>
-      <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">
+      <a mat-list-item appAccordionLink routerLinkActive="selected" href="/classificacao" class="classificacao">
         <mat-icon class="icones_lista">poll</mat-icon>CLASSIFICAÇÃO
       </a>
       <a mat-list-item appAccordionLink routerLinkActive="selected" href="#" class="classificacao">

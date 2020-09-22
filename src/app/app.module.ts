@@ -22,17 +22,22 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
 
 import { MatNativeDateModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { ParticipantesComponent } from './participantes/participantes.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SlideshowModule } from 'ng-simple-slideshow';
+import { ClassificacaoComponent } from './classificacao/classificacao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    ParticipantesComponent
+    ParticipantesComponent,
+    ClassificacaoComponent
   ],
   imports: [
     BrowserModule,
@@ -54,8 +59,11 @@ import { ParticipantesComponent } from './participantes/participantes.component'
     MatSelectModule,
     MatSliderModule,
     MatSlideToggleModule,
+    MatCardModule,
     MatNativeDateModule,
-    MatTableModule
+    MatTableModule,
+    NgbModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,10 @@
+table {
+  width: 93%;
+    margin: 50px;
+    overflow: hidden;
+  }
+  
+.pontos{
+  font-weight: bold;
+  font-size: 16px;
+}

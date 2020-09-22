@@ -14,6 +14,7 @@ export class NavComponent {
   @ViewChild(MatSidenav, {static: false}) sidenav: MatSidenav;
   events: string[] = [];
   opened: boolean = true;
+  menuOpen = false;
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(

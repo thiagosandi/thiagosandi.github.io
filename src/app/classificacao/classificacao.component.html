@@ -1,0 +1,52 @@
+<h2 style="text-align:center" class="mt-1">Classificação</h2>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 ml-3 mb-1">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="pontos">
+        <th mat-header-cell *matHeaderCellDef> Pontos </th>
+        <td mat-cell *matCellDef="let element" class="pontos"> {{element.pontos}} </td>
+    </ng-container>
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> </th>
+        <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Time </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="jogos">
+        <th mat-header-cell *matHeaderCellDef> Jogos </th>
+        <td mat-cell *matCellDef="let element"> {{element.jogos}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+        <th mat-header-cell *matHeaderCellDef> Vitória </th>
+        <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="empate">
+        <th mat-header-cell *matHeaderCellDef> Emp. </th>
+        <td mat-cell *matCellDef="let element"> {{element.empate}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="symbol">
+        <th mat-header-cell *matHeaderCellDef> Derrota </th>
+        <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
