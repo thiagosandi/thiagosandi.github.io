@@ -1,19 +1,20 @@
 .card-container {
-  /*  not needed styles to reflect it */ 
+  /*  not needed styles to reflect it */
   background: #1c1c1c;
   padding: 10px;
-  color:#fafa20;
-}
-
-.mat-card{
+  color: #fafa20;
   border-radius: 15px;
 }
 
-.title{
+.mat-card {
+  border-radius: 15px;
+}
+
+.title {
   font-size: 20px;
 }
 
-.trofeus{
+.trofeus {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -23,51 +24,59 @@
   background-color: transparent;
 }
 
-.mat-card-content{
+.mat-card-content {
   margin-top: 10px;
 }
 
 .andre {
-  background-image: url('../../assets/campeoes/andre.png');
+  background-image: url("../../assets/campeoes/andre.png");
   background-size: cover;
   width: 70px;
   height: 65px;
 }
 
 .dodo {
-  background-image: url('../../assets/campeoes/dodo.png');
+  background-image: url("../../assets/campeoes/dodo.png");
   background-size: cover;
   width: 70px;
   height: 65px;
 }
 
 .estevao {
-  background-image: url('../../assets/campeoes/tt.png');
+  background-image: url("../../assets/campeoes/tt.png");
   background-size: cover;
   width: 70px;
   height: 65px;
 }
 
 .sandi {
-  background-image: url('../../assets/campeoes/sandi.jpg');
+  background-image: url("../../assets/campeoes/sandi.jpg");
   background-size: cover;
   width: 70px;
   height: 65px;
 }
 
-.mat-card-subtitle.veja{
-  color:#fafa20;
+.mat-card-subtitle.veja {
+  color: #fafa20;
 }
 
-.mat-card-title.titulo{
+.mat-card-title.titulo {
   font-size: 25px;
 }
 
-.mat-card-subtitle.subtitulo{
+.matheus {
+  background-image: url("../../assets/participantes/matheus.png");
+  background-size: cover;
+  width: 70px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.mat-card-subtitle.subtitulo {
   font-size: 18px;
 }
 
-p{
+p {
   text-align: center;
   margin: 10px;
 }

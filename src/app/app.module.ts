@@ -30,6 +30,8 @@ import { ParticipantesComponent } from './participantes/participantes.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SlideshowModule } from 'ng-simple-slideshow';
 import { ClassificacaoComponent } from './classificacao/classificacao.component';
+import { RegulamentoComponent } from './regulamento/regulamento.component';
+import { TimesComponent } from './times/times.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { ClassificacaoComponent } from './classificacao/classificacao.component'
     NavComponent,
     HomeComponent,
     ParticipantesComponent,
-    ClassificacaoComponent
+    ClassificacaoComponent,
+    RegulamentoComponent,
+    TimesComponent
   ],
   imports: [
     BrowserModule,

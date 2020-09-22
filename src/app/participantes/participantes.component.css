@@ -1,0 +1,153 @@
+.mat-card {
+    border-radius: 15px;
+}
+
+.andre {
+    background-image: url("../../assets/campeoes/andre.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.danilo {
+    background-image: url("../../assets/participantes/danilo.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.fabinho {
+    background-image: url("../../assets/participantes/fabinho.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.irno {
+    background-image: url("../../assets/participantes/irno.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.nelmar {
+    background-image: url("../../assets/participantes/nelmar.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.thales {
+    background-image: url("../../assets/participantes/thales.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.matheus {
+    background-image: url("../../assets/participantes/matheus.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.wilk {
+    background-image: url("../../assets/participantes/wilk.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.max {
+    background-image: url("../../assets/participantes/max.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.jonny {
+    background-image: url("../../assets/participantes/jonny.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.joao {
+    background-image: url("../../assets/participantes/joao.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.lucas {
+    background-image: url("../../assets/participantes/lucas.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.andreD {
+    background-image: url("../../assets/participantes/robinho.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.carlos {
+    background-image: url("../../assets/participantes/carlos.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.dodo {
+    background-image: url("../../assets/campeoes/dodo.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.estevao {
+    background-image: url("../../assets/campeoes/tt.png");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.sandi {
+    background-image: url("../../assets/campeoes/sandi.jpg");
+    background-size: cover;
+    width: 70px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.mat-card-title.titulo {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.mat-card {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mat-card-subtitle {
+    margin-bottom: 5px;
+}
